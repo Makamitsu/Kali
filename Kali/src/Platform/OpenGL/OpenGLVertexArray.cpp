@@ -70,7 +70,6 @@ namespace Kali
 			++index;
 		}
 		m_vertexBuffers.push_back(vertexBuffer);
-
 	}
 
 	void OpenGLVertexArray::SetIndexBuffer(const std::shared_ptr<IndexBuffer>& indexBuffer)
