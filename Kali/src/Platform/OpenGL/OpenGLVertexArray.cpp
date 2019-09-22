@@ -65,7 +65,7 @@ namespace Kali
 				ShaderDataTypeToOpenGLBaseType(item.Type),
 				item.Normalized ? GL_TRUE : GL_FALSE,
 				layout.GetStride(),
-				reinterpret_cast<const void*>(long(item.Offset))
+				&item.Offset
 			);
 			++index;
 		}
